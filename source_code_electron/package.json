@@ -1,0 +1,29 @@
+{
+  "name": "microsoft-office-365",
+  "productName": "Microsoft Office 365",
+  "icon": "usr/share/icons/hicolor/256x256/apps/microsoft-office-365.png",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:linux": "electron-builder --linux AppImage",
+    "build:win": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.6.3"
+  },
+  "build": {
+    "appId": "com.exemplo.meuapp",
+    "linux": {
+      "target": "AppImage",
+      "category": "Development"
+    },
+    "win": {
+      "target": "portable"
+    }
+  },
+  "dependencies": {
+    "electron-settings": "^4.0.4"
+  }
+}
