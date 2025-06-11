@@ -23,7 +23,7 @@ Application developed using Electron. Packaged using AppImageTools. It basically
 2. Unzip it and open the extracted folder.
 3. Make the file Instalar.sh executable and execute it.
 4. The application has been installed successfully.
-5. Delete the Microsoft-Office-365-APPIMAGE-20250516-21H55 folder and the Microsoft-Office-365-APPIMAGE-20250516-21H55.zip file, as they are no longer necessary.
+5. Delete the Microsoft-Office-365-AppImage-20250516-21h55 folder and the Microsoft-Office-365-AppImage-20250516-21h55.zip file, as they are no longer necessary.
 
 Video showing how to install:
 https://youtu.be/DAcmosUJKyM
