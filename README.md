@@ -1,3 +1,5 @@
+![preview](PREVIEW.png)
+
 # Sobre a aplicação
 
 Aplicação desenvolvida usando Electron. Empacotada usando AppImageTools. Ela basicamente abre a tela de login do Microsoft Office 365.
