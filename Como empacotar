@@ -7,3 +7,8 @@ Baixo appimagetool-x86_64.AppImage
 ARCH=x86_64 ~/Downloads/appimagetool-x86_64.AppImage ../appimage_dir/ Microsoft_Office_365-x86_64.AppImage
 
 
+Empacotar direto
+npm install
+npm run build:linux
+Gera um AppImage mais leve e com ícone
+

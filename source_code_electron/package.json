@@ -1,7 +1,6 @@
 {
   "name": "microsoft-office-365",
   "productName": "Microsoft Office 365",
-  "icon": "icon/microsoft-office-365.ico",
   "version": "1.0.1",
   "main": "main.js",
   "scripts": {
@@ -17,7 +16,8 @@
     "appId": "com.microsoftoffice365.electron",
     "linux": {
       "target": "AppImage",
-      "category": "Development"
+      "icon":"usr/share/icons/hicolor/256x256/apps/microsoft-office-365.png",
+      "category": "Office"      
     },
     "win": {
       "icon": "icon/microsoft-office-365.ico",
